@@ -1,0 +1,37 @@
+/* #navbar{
+    background-color: white;
+} */
+
+.nav-item {
+    font-size: .75rem;
+    /* margin-left: 20px; */
+}
+
+.logo {
+    font-size: 1rem;
+}
+
+/* #navbarWatches {
+    background-color: rgb(249, 249, 250);
+} */
+
+
+/* .watchItem {
+
+} */
+
+/* a {
+    color: black;
+    text-decoration: none;
+} */
+
+.navWatchP {
+    color: black;
+    font-size: .75rem;
+    text-decoration: none;
+}
+
+.navWatchP:hover {
+    color: #007bff;
+    cursor: pointer;
+}
