@@ -95,6 +95,7 @@ a:active { text-decoration: none; }
 .sectionPrice{
     font-size: 1.3rem;
     font-weight: 500;
+    text-align: center;
 }
 
 .butn {
@@ -106,6 +107,12 @@ a:active { text-decoration: none; }
     margin-bottom: 10px;
     padding: 5px 18px;
     text-decoration: none;
+  }
+
+  .butnOutline {
+    border-radius: 60px;
+    margin: 6px 0px 10px;
+    padding: 5px 18px;
   }
 
   .butnSm {
@@ -139,8 +146,16 @@ a:active { text-decoration: none; }
     font-size: 1.3rem;
 }
 
+.pageLinkLarger{
+    display: inline;
+    font-size: 1.5rem;
+}
+
 
 /*********** EVERY SECTION COMMON STYLES END ***********/
+
+
+
 
 .watchDivColumn{
     align-items: center;
@@ -171,11 +186,15 @@ a:active { text-decoration: none; }
     text-align: center;
 }
 
-.watchSEpic{
+.watchSEpic, .familySetupImg{
     margin: 100px 0px;
 }
 
 
+
+
+
+/************* WATCH COLUMNS SECTION STYLES*************/
 #watchSelection{
     align-items: center;
     display: flex;
@@ -260,13 +279,108 @@ a:active { text-decoration: none; }
     justify-content: center;
 }
 
-/* .card li p span{
-    line-height: -100px;
-    margin: -500px;
-    padding: -500px;
-} */
 
-/* .cardSub{
-    color: rgb(103, 103, 104);
-} */
+/*********** WATCH COLUMNS SECTION STYLES END***********/
+.subFeaturesSup{
+    font-size: .9rem;
+}
+
+.subFeaturesText{
+    font-size: 1.3rem;
+    font-weight: 400;
+    /* line-height: 1.1; */
+    text-align: center;
+}
+
+.subFeaturesText2{
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.subFeaturesText3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: .1;
+}
+
+.subFeaturesText4{
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.subFeaturesLink{
+    line-height: .6;
+    font-size: 1.3rem;
+}
+
+.horizontalOSFeature{
+    gap: 200px; 
+    /* margin: 0px auto 30px; */
+    width: 1386px; 
+}
+
+.prideText, .watchOS10Text{
+    /* margin-top: 20px; */
+    /* position: absolute; */
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.prideImg, .watchOS10Img {
+    border-top: 150px solid rgb(245, 245, 247);
+    /* border-top: 150px solid black; */
+    margin-bottom: 30px;
+    /* position: relative; */
+}
+
+#watchOS10Section{
+    background-color: rgb(245,245, 247);
+    margin: 0px auto 30px;
+    width: 1386px;
+}
+
+.watchOS10Text{
+    right: 0px;
+    padding-top: 35px;
+    width: 100%;
+}
+
+.watchOS10Img{
+    /* padding-bottom: 40px; */
+    height: 80%;
+    width: 80%;
+}
+
+.fitnessSectionText{
+    align-items: right;
+    justify-content: right;
+    right: 80px;
+}
+
+#AppleWatchStudio {
+    background-color: rgb(245,245, 247);
+    height: 1500px;
+    width: 1386px;
+}
+
+.watchStudioBands{
+    padding-top: 300px;
+    height: 700px;
+    overflow: hidden;
+    width: 2500px;
+}
+
+.watchStudioFace{
+    padding-top: 50px;
+    height: 750px;
+    width: 275px;
+}
+
+
+
+
+
 
