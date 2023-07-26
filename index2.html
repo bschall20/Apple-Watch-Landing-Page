@@ -260,7 +260,7 @@
 
 
     <!-- WATCH ULTRA Section -->
-    <section id="watchUltra" class="grayBackground">
+    <section id="watchUltra" class="">
         <div class="d-flex flex-column align-items-center justify-content-center pt-3 pb-5"
             style="background-color: rgb(245,245, 247);">
             <img src="images/Watch Ultra.png" alt="Apple Watch Ultra" class="mt-5">
@@ -295,7 +295,7 @@
 
 
     <!-- WATCH SERIES 8 Section -->
-    <section id="watchSeries8" class="bg-black row align-items-center justify-content-center">
+    <section id="watchSeries8" class="bg-black d-flex flex-row justify-content-center">
         <div class="col-lg-3 col-sm-12 justify-content-center">
             <!-- <div class=""> -->
             <div class="d-sm-block d-md-none">
@@ -330,7 +330,7 @@
 
 
     <!-- WATCH SE Section -->
-    <section id="watchSE" class="row align-items-center justify-content-center py-5"
+    <section id="watchSE" class="d-flex flex-row justify-content-center py-5"
         style="background-color: rgb(245,245, 247);">
         <div class="col-lg-3 col-sm-12 d-flex flex-column align-items-center justify-content-center me-5 py-5">
             <img src="images/Watch SE.png" alt="Apple Watch SE" class="">
@@ -585,19 +585,14 @@
 
         </div>
 
-        <!-- <div class="mt-3"> -->
-        <!-- <a href="#" class="">Compare all models ></a>
-            <a href="#" class="ms-4">Shop Apple Watch ></a> -->
-
-        <span class="d-flex justify-content-center mt-3 mb-5 pb-5 fw-semibold">
-            <a href="#" class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-5">Compare
+        <span class="d-flex justify-content-center mt-3 mb-5 pb-5">
+            <a href="#" class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-4">Compare
                 all models </a>
-            <span class="link-primary d-inline ms-1 me-3 fs-5"> ></span>
-            <a href="#" class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-5 ms-4">Learn
+            <span class="link-primary d-inline ms-1 me-3 fs-4"> ></span>
+            <a href="#" class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-4 ms-4">Learn
                 more </a>
-            <span class="link-primary d-inline ms-1 fs-5"> ></span>
+            <span class="link-primary d-inline ms-1 fs-4"> ></span>
         </span>
-        <!-- </div> -->
     </section>
 
 
@@ -606,58 +601,102 @@
 
 
         <!-- WATCH PRIDE Section -->
-        <section id="prideSection">
-            <div class="mt-3 position-absolute">
-                <img src="images/large/Apple Watch.png" alt="Apple Watch Logo" class="">
-                <p class="">Pride is in the air.</p>
-                <p class="">Celebrate all year long with the
+        <section id="prideSection" class="mt-5 pt-5">
+            <div
+                class="mt-4 col-lg-12 position-absolute z-1 d-flex flex-column justify-content-center align-items-center">
+                <img src="images/large/Apple Watch.png" alt="Apple Watch Logo" class="mt-5">
+                <p class="sectionTitle text-center">Pride is in the air.</p>
+                <p class="text-center fs-5">Celebrate all year long with the
                     <br>
-                    new Pride Edition Sport Band
+                    new Pride Edition Sport Band.
                 </p>
-                <button class="btn btn-primary">Buy</button>
+                <button class="btn btn-primary buyBtn">Buy</button>
             </div>
-
-            <div class="">
-                <img src="images/large/pride.jpg" alt="Apple Watch Pride" class="prideImg position-relative">
+            <div class="z-0 d-flex justify-content-center mb-4 position-relative">
+                <div class="d-sm-block d-md-none">
+                    <img src="images/small/pride_sm.jpg" alt="Apple Watch Pride"
+                        style="border-top: 150px solid rgb(245, 245, 247);"> <!--Mobile-->
+                </div>
+                <div class="d-none d-md-block d-lg-none">
+                    <img src="images/medium/pride_md.jpg" alt="Apple Watch Pride"
+                        style="border-top: 150px solid rgb(245, 245, 247);"> <!--Tab-->
+                </div>
+                <div class="d-none d-lg-block">
+                    <img src="images/large/pride_lg.jpg" alt="Apple Watch Pride"
+                        style="border-top: 150px solid rgb(245, 245, 247);"> <!--Large-->
+                </div>
             </div>
         </section>
 
 
         <!-- WATCHOS 10 Section -->
-        <section id="watchOS10Section">
-            <div class="mt-3 position-absolute">
-                <p class="">watchOS 10</p>
-                <p class="">Everything you love. Like never before.</p>
-                <a href="#" class="ms-4">Explore the preview ></a>
+        <section id="watchOS10Section" class="d-flex justify-content-center mx-auto pb-5" 
+                style="background-color: rgb(245,245, 247); width: 1386px;">
+            <div
+                class="mt-5 col-lg-12 position-absolute z-1 d-flex flex-column justify-content-center align-items-center">
+                <p class="sectionTitle lh-1">watchOS 10</p>
+                <p class="fs-5 lh-1">Everything you love. Like never before.</p>
+                <span class="mb-3">
+                    <a href="#" class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-5">
+                        Explore the preview</a>
+                    <span class="link-primary d-inline fs-5"> ></span>
+                </span>
             </div>
 
-            <div class="">
-                <img src="images/large/watchOS 10 Banner.jpg" alt="watchOS 10" class="pb-5 position-relative">
+            <div class="z-0 d-flex justify-content-center mb-4 position-relative">
+                <div class="d-sm-block d-md-none">
+                    <img src="images/small/watchOS 10 Banner sm.jpg" alt="watchOS 10"
+                        style="border-top: 150px solid rgb(245, 245, 247);"> <!--Mobile-->
+                </div>
+                <div class="d-none d-md-block d-lg-none">
+                    <img src="images/medium/watchOS 10 Banner md.jpg" alt="watchOS 10"
+                        style="border-top: 150px solid rgb(245, 245, 247);"> <!--Tab-->
+                </div>
+                <div class="d-none d-lg-block">
+                    <img src="images/large/watchOS 10 Banner lg.jpg" alt="watchOS 10"
+                        style="border-top: 150px solid rgb(245, 245, 247);"> <!--Large-->
+                </div>
             </div>
         </section>
 
 
         <!-- FAMILY SETUP Section -->
-        <section id="familySetupSection" class="grayBackground watchDivRow horizontalOSFeature mx-auto mb-5">
-            <div class="">
-                <p class="">Family Setup</p>
-                <p class="">Your family joined <br> at the wrist.</p>
-                <p class="">Family members who don't have
+        <section id="familySetupSection" 
+        class="d-flex flex-row align-items-center justify-content-center py-5 mx-auto mb-5 mt-4" 
+        style="background-color: rgb(245,245, 247); gap: 150px; width: 1386px;">
+            <div>
+                <p class="lh-1 text-center mt-2 fw-semibold fs-5 lh-1">Family Setup</p>
+                <p class="sectionTitle lh-1 text-center mt-2">Your family joined <br> at the wrist.</p>
+                <p class="text-center fw-semibold fs-5 lh-1">Family members who don't have
                     <br>
                     an iPhone can stay in touch with
                     <br>
                     Apple Watch.
                 </p>
-                <span>
-                    <button class="btn btn-outline-primary">Learn More</button>
-                    <a href="#" class="">Shop Apple Watch ></a>
+                <span class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-outline-primary butnOutline">Learn More</button>
+                    <a href="#"
+                        class="mb-1 ms-3 link-primary link-underline-opacity-0 link-underline-opacity-100-hover">Shop Apple Watch
+                    </a>
+                    <span class="link-primary d-inline mb-1 ms-1"> ></span>
                 </span>
             </div>
 
-            <div>
-                <img src="images/large/FamilySetup.jpg" alt="Family Setup Watches" class="">
+
+            <div class="z-0 d-flex justify-content-center mb-4">
+                <div class="d-sm-block d-md-none">
+                    <img src="images/large/FamilySetup.jpg" alt="Family Setup Watches"> <!--Mobile-->
+                </div>
+                <div class="d-none d-md-block d-lg-none">
+                    <img src="images/large/FamilySetup.jpg" alt="Family Setup Watches"> <!--Tab-->
+                </div>
+                <div class="d-none d-lg-block">
+                    <img src="images/large/FamilySetup.jpg" alt="Family Setup Watches"> <!--Large-->
+                </div>
             </div>
         </section>
+
+        
 
 
 

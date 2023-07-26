@@ -48,11 +48,11 @@ a:active { text-decoration: none; } */
     text-decoration: none;
   }
 
-  /* .butnOutline {
+  .butnOutline {
     border-radius: 60px;
     margin: 6px 0px 10px;
     padding: 5px 18px;
-  } */
+  }
 
   .buyBtnSm {
     background: #006ee3;
