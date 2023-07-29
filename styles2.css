@@ -80,3 +80,6 @@ a:active { text-decoration: none; } */
   width: 100%;
 }
 
+.me-6 {
+  margin-right: 5rem;
+}
