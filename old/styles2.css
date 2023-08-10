@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h2{
+    margin: 80px 0px;
+}
+
+h3{
+    font-size: 1.25rem;
+}
+
+h4{
+    font-size: 1.15rem;
+}
+
+sup{
+    font-size: .5rem;
+    font-weight: bold;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+#navbarNavDropdown{
+    height: 30px;
+}
+
+.nav-item { font-size: .75rem; }
+
+.logo { font-size: 1rem; }
+
+.watchItem {
+    height: 115px;
+    padding: 10px;
+    width: 100px;
+}
+
+.watchItem p {
+    color: #343a40;
+    font-size: .85rem;
+    text-decoration: none;
+}
+
+.watchItem p:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.watchItemLink{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.bands {
+    width: 60px;
+}
+
+.watchOS {
+    line-height: 1;
+    padding-top: 4px;
+}
+
+.preview {
+    color: rgb(191, 72, 0);
+    font-size: .7rem;
+}
+
+#cashBack {
+    font-size: .8rem;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    width: 53%;
+}
+
+/************* EVERY SECTION COMMON STYLES *************/
+.grayBackground{
+    background-color: rgb(245,245, 247);
+}
+
+.sectionTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.sectionPrice{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.butn {
+    background: #006ee3;
+    border-radius: 60px;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 5px 18px;
+    text-decoration: none;
+  }
+
+  .butn:hover {
+    background: #0080ff;
+    border-color: #0080ff;
+    text-decoration: none;
+  }
+
+  .butnOutline {
+    border-radius: 60px;
+    margin: 6px 0px 10px;
+    padding: 5px 18px;
+  }
+
+  .butnSm {
+    background: #006ee3;
+    border-radius: 60px;
+    font-family: Arial;
+    font-size: .75rem;
+    font-weight: 500;
+    margin: 10px 0px;
+    padding: 3px 13px;
+    text-decoration: none;
+  }
+
+  .pageLink1{
+    margin: 0px 20px;
+  }
+
+  .pageLinkHover:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.pageLinkLarge{
+    display: inline;
+    font-size: 1.3rem;
+}
+
+.pageLinkLarger{
+    display: inline;
+    font-size: 1.5rem;
+}
+
+
+/*********** EVERY SECTION COMMON STYLES END ***********/
+
+
+
+
+.watchDivColumn{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.watchPicTitle{
+    margin-top: 50px;
+}
+
+.watchPic{
+    margin: 50px 0px 150px;
+}
+
+.watchDivRow{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+}
+
+.watchTitleText{
+    line-height: 1.1;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.watchSEpic, .familySetupImg{
+    margin: 100px 0px;
+}
+
+
+
+
+
+/************* WATCH COLUMNS SECTION STYLES*************/
+#watchSelection{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto 100px;
+}
+
+.watchColor{
+    border: solid, 1px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin: 35px 0px 15px;
+    width: 10px;
+}
+
+.card{
+    border: none;
+    /* border-bottom: 1px solid black; */
+    width: 13rem;
+}
+
+.card-body, .watchCellular{
+    border-bottom: solid 1px rgb(194, 194, 194);
+}
+
+.card-body, .list-group{
+    width: 20rem;
+}
+
+.card, .card-body{
+    align-items: center;
+    /* border-bottom: solid 1px rgb(194, 194, 194); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.card p {
+    font-size: .9rem;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+.list-group li {
+    list-style-type: none;
+}
+
+.watchRetinaImg{
+    height: 60px;
+}
+
+.watchSpecs, .watchRetina {
+    height: 175px;
+}
+
+.watchBloodOxygen, .watchECGApp {
+    height: 115px;
+}
+
+.watchHeartRate, .watchTemp {
+    height: 190px;
+}
+
+.watchSOS {
+    height: 300px;
+}
+
+.watchCellular {
+    height: 135px;
+    padding-bottom: 180px;
+}
+
+.blankWatchCard{
+    align-items: center;
+    display: flex;
+    font-size: 5000rem;
+    font-weight: 900;
+    height: 58px;
+    justify-content: center;
+}
+
+
+/*********** WATCH COLUMNS SECTION STYLES END***********/
+.subFeaturesSup{
+    font-size: .9rem;
+}
+
+.subFeaturesText{
+    font-size: 1.3rem;
+    font-weight: 400;
+    /* line-height: 1.1; */
+    text-align: center;
+}
+
+.subFeaturesText2{
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.subFeaturesText3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: .1;
+}
+
+.subFeaturesText4{
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.subFeaturesLink{
+    line-height: .6;
+    font-size: 1.3rem;
+}
+
+.horizontalOSFeature{
+    gap: 200px; 
+    /* margin: 0px auto 30px; */
+    width: 1386px; 
+}
+
+.prideText, .watchOS10Text{
+    /* margin-top: 20px; */
+    /* position: absolute; */
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.prideImg, .watchOS10Img {
+    border-top: 150px solid rgb(245, 245, 247);
+    /* border-top: 150px solid black; */
+    margin-bottom: 30px;
+    /* position: relative; */
+}
+
+#watchOS10Section{
+    background-color: rgb(245,245, 247);
+    margin: 0px auto 30px;
+    width: 1386px;
+}
+
+.watchOS10Text{
+    right: 0px;
+    padding-top: 35px;
+    width: 100%;
+}
+
+.watchOS10Img{
+    /* padding-bottom: 40px; */
+    height: 80%;
+    width: 80%;
+}
+
+.fitnessSectionText{
+    align-items: right;
+    justify-content: right;
+    right: 80px;
+}
+
+#AppleWatchStudio {
+    background-color: rgb(245,245, 247);
+    height: 1500px;
+    width: 1386px;
+}
+
+.watchStudioBands{
+    padding-top: 300px;
+    height: 700px;
+    overflow: hidden;
+    width: 2500px;
+}
+
+.watchStudioFace{
+    padding-top: 50px;
+    height: 750px;
+    width: 275px;
+}
+
+
+
+
+
+
