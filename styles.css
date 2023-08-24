@@ -12,6 +12,14 @@ html, body, footer {
   padding: 0px;
 }
 
+hr {
+  border-style: none;
+  border-bottom-style: solid;
+  border-width: 1px;
+  width: 100%;
+  color: rgb(78, 78, 78);
+}
+
 .smallFont {
     font-size: .75rem;
 }
@@ -38,12 +46,12 @@ html, body, footer {
 
 .buyBtn {
     background: #006ee3;
-    border-radius: 60px;
+    border-radius: 1.5rem;      /*was 60px*/
     font-family: Arial;
     font-size: 1rem;
     font-weight: 500;
-    margin-bottom: 10px;
-    padding: 5px 18px;
+    margin-bottom: .5rem;      /*was 10px*/
+    padding: .3rem 1.15rem;    /*was 5px 18px*/
     text-decoration: none;
   }
 
