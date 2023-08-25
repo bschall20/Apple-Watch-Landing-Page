@@ -131,12 +131,30 @@ hr {
   left: 3px;
 }
 
-.moveLeft{
+.moveLeftLg{
   transform: translateX(-260px); 
   transition: transform 3s;
 }
 
-.moveLeft:hover{
+.moveLeftLg:hover{
+  transform: translateX(-580px);
+}
+
+.moveLeftMd{
+  transform: translateX(-260px); 
+  transition: transform 3s;
+}
+
+.moveLeftMd:hover{
+  transform: translateX(-580px);
+}
+
+.moveLeftSm{
+  transform: translateX(-260px); 
+  transition: transform 3s;
+}
+
+.moveLeftSm:hover{
   transform: translateX(-580px);
 }
 
