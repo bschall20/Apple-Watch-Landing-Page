@@ -263,7 +263,7 @@
 
     <!-- WATCH ULTRA Section -->
     <section id="watchUltra" class="">
-        <div class="d-flex flex-column align-items-center justify-content-center pt-3 pb-5"
+        <div class="d-flex flex-column align-items-center justify-content-center pt-3 pb-5 overflow-hidden"
             style="background-color: rgb(245,245, 247);">
             <img src="images/Watch Ultra.png" alt="Apple Watch Ultra" class="mt-5">
             <p class="sectionTitle fs-1">Adventure awaits.</p>
@@ -298,10 +298,9 @@
 
     <!-- WATCH SERIES 8 Section -->
     <section id="watchSeries8" class="bg-black">
-        <div class="d-flex flex-row justify-content-center">
-            <div class="justify-content-center me-5">
-                <!-- <div class=""> -->
-                <div class="d-sm-block d-md-none">
+        <div class="d-flex flex-column flex-md-row justify-content-center">
+            <div class="justify-content-center me-md-5 order-2 order-md-1">
+                <div class="d-sm-block d-md-none ms-2">
                     <img src="images/small/2Watch sm.jpg" alt="Apple Watch Series 8"> <!--Mobile-->
                 </div>
                 <div class="d-none d-md-block d-lg-none">
@@ -310,10 +309,10 @@
                 <div class="d-none d-lg-block">
                     <img src="images/large/2Watch lg.jpg" alt="Apple Watch Series 8"> <!--Large-->
                 </div>
-                <!-- </div> -->
             </div>
 
-            <div class="d-flex flex-column align-items-center justify-content-center ms-5" style="color: white;">
+            <div class="d-flex flex-column align-items-center justify-content-center my-5 my-md-0 ms-md-5 order-1 order-md-2"
+                style="color: white;">
                 <img src="images/Watch Series 8.png" alt="Apple Watch Series 8">
                 <p class="sectionTitle fs-1 lh-1 text-center mt-2 col-lg-7">A healthy leap ahead.</p>
                 <p class="fs-5 fw-semibold">From $399</p>
@@ -334,9 +333,10 @@
 
 
     <!-- WATCH SE Section -->
-    <section id="watchSE" class="d-flex flex-row justify-content-center py-5"
+    <section id="watchSE" class="d-flex flex-column flex-md-row justify-content-center py-md-5 overflow-hidden"
         style="background-color: rgb(245,245, 247);">
-        <div class="d-flex flex-column align-items-center justify-content-center me-5 py-5">
+        <div
+            class="d-flex flex-column align-items-center justify-content-center me-md-5 pb-5 pt-md-5 order-2 order-md-1">
             <img src="images/Watch SE.png" alt="Apple Watch SE">
             <p class="sectionTitle fs-1 lh-1 text-center mt-2 col-md-8">A great deal to love.</p>
             <p class="fs-5 fw-semibold">From $249</p>
@@ -351,7 +351,7 @@
         </div>
 
 
-        <div class="justify-content-center py-5 ms-5">
+        <div class="justify-content-center py-5 ms-md-5 order-1 order-md-2">
             <div class="d-sm-block d-md-none">
                 <img src="images/small/Bundle of Watches sm.jpg" alt="Apple Watch SE Bundle"> <!--Mobile-->
             </div>
@@ -366,15 +366,15 @@
 
 
     <!-- WATCH SELECTION Section -->
-    <section id="watchSelection">
+    <section id="watchSelection" class="container">
         <!-- class="d-flex align-items-center justify-content-center flex-column mx-auto mb-5"> -->
         <h2 class="text-center fs-1 fw-bold my-5 py-3">Which Apple Watch is right for you?</h2>
 
-        <div class="d-flex align-items-center justify-content-center flex-row">
-            <div class="card d-flex flex-column align-items-center justify-content-center text-center col-lg-2 col-md-3 col-sm-1"
+        <div class="row justify-content-center">
+            <div class="card d-flex flex-column align-items-center justify-content-center text-center col-lg-3 col-md-4 col-6"
                 style="border: none;">
                 <img class="card-img-top" src="images/large/AWS8 lg.jpg" alt="Apple Watch Series 8"
-                    style="height: 15rem; width: 12rem;">
+                    style="height: 13rem; width: 10rem;">
                 <div id="watchColors">
                     <span class="watchColor" style="background-color: rgb(26, 37, 48);"></span>
                     <span class="watchColor" style="background-color: rgb(222, 214, 209);"></span>
@@ -450,10 +450,10 @@
             </div>
 
 
-            <div class="card d-flex flex-column align-items-center justify-content-center text-center col-lg-2 col-md-3 col-sm-1"
+            <div class="card d-flex flex-column align-items-center justify-content-center text-center col-lg-3 col-md-4 col-6"
                 style="border: none;">
                 <img class="card-img-top" src="images/large/AWSE lg.jpg" alt="Apple Watch SE"
-                    style="height: 15rem; width: 12rem;">
+                    style="height: 13rem; width: 10rem;">
                 <div id="watchColors">
                     <span class="watchColor" style="background-color: rgb(26, 37, 48);"></span>
                     <span class="watchColor" style="background-color: rgb(222, 214, 209);"></span>
@@ -519,10 +519,10 @@
             </div>
 
 
-            <div class="card d-flex flex-column align-items-center justify-content-center text-center col-lg-2 col-md-3 col-sm-1"
+            <div class="card d-flex flex-column align-items-center justify-content-center text-center col-lg-3 col-md-4 col-6"
                 style="border: none;">
                 <img class="card-img-top" src="images/large/AWU lg.jpg" alt="Card image cap"
-                    style="height: 15rem; width: 12rem;">
+                    style="height: 13rem; width: 10rem;">
 
                 <div id="watchColors">
                     <span class="watchColor" style="background-color: rgb(204, 196, 188);"></span>
@@ -593,14 +593,19 @@
 
         </div>
 
-        <span class="d-flex justify-content-center mt-3 mb-5 pb-5">
-            <a href="#" class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-4">Compare
-                all models </a>
-            <span class="link-primary d-inline ms-1 me-3 fs-4"> ></span>
-            <a href="#" class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-4 ms-4">Learn
-                more </a>
-            <span class="link-primary d-inline ms-1 fs-4"> ></span>
+        <span class="d-flex justify-content-center mt-3 mb-5 pb-5 flex-column flex-md-row text-center">
+            <div>
+                <a href="#" class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-4">Compare
+                    all models </a>
+                <span class="link-primary d-inline ms-1 me-3 fs-4"> ></span>
+            </div>
+            <div class="pe-4 mt-2 pe-md-0 mt-md-0">
+                <a href="#"
+                    class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-4 ms-4">Learn
+                    more </a>
+                <span class="link-primary d-inline ms-1 fs-4"> ></span>
         </span>
+        </div>
     </section>
 
 
@@ -610,7 +615,7 @@
 
         <!-- WATCH PRIDE Section -->
         <section id="prideSection" class="mt-5 col-lg-8 mx-auto overflow-hidden">
-            <div class="mt-4 col-lg-8 col-sm-12 position-absolute z-1 d-flex flex-column align-items-center">
+            <div class="mt-4 col-lg-8 col-12 position-absolute z-1 d-flex flex-column align-items-center">
                 <img src="images/large/Apple Watch.png" alt="Apple Watch Logo" class="mt-5">
                 <p class="sectionTitle text-center" style="font-size: 2.2rem;">Pride is in the air.</p>
                 <p class="text-center fs-5">Celebrate all year long with the
@@ -637,10 +642,10 @@
 
 
         <!-- WATCHOS 10 Section -->
-        <section id="watchOS10Section" class="d-flex justify-content-center mx-auto pb-5 col-md-10 col-lg-8"
+        <section id="watchOS10Section"
+            class="d-flex justify-content-center mx-auto pb-5 col-md-10 col-lg-8 overflow-hidden"
             style="background-color: rgb(245,245, 247);">
-            <div
-                class="mt-5 position-absolute z-1 d-flex flex-column align-items-center">
+            <div class="mt-5 position-absolute z-1 d-flex flex-column align-items-center">
                 <p class="sectionTitle lh-1" style="font-size: 2.2rem;">watchOS 10</p>
                 <p class="fs-5 lh-1">Everything you love. Like never before.</p>
                 <span class="mb-3">
@@ -673,7 +678,8 @@
             style="background-color: rgb(245,245, 247); gap: 2rem; padding: 8rem 5rem;">
             <div class="d-flex flex-column align-items-center col-md-6 col-lg-4 me-lg-5">
                 <p class="lh-1 text-center mt-2 fw-semibold fs-5 lh-1">Family Setup</p>
-                <p class="sectionTitle lh-1 fw-semibold text-center mt-2 col-lg-9" style="font-size: 2rem;">Your family joined at the wrist.</p>
+                <p class="sectionTitle lh-1 fw-semibold text-center mt-2 col-lg-9" style="font-size: 2rem;">Your family
+                    joined at the wrist.</p>
                 <p class="text-center fw-semibold fs-5 lh-1 col-md-12 col-lg-11">Family members who don't have
                     an iPhone can stay in touch with
                     Apple Watch.
@@ -707,7 +713,8 @@
 
 
         <!-- FITNESS+ Section -->
-        <section id="fitnessSection" class="col-md-10 col-lg-8 overflow-hidden mx-auto position-relative d-flex justify-content-center align-items-center">
+        <section id="fitnessSection"
+            class="col-md-10 col-lg-8 overflow-hidden mx-auto position-relative d-flex justify-content-center align-items-center">
             <div class="mb-5 pe-md-5">
                 <div class="d-sm-block d-md-none">
                     <img src="images/small/Fitness Plus sm.jpg" alt="Apple Watch Fitness Plus" class="mt-3">
@@ -723,7 +730,8 @@
             </div>
 
             <div class="flex-column position-absolute align-items-center text-center end-0 me-lg-5 me-md-3 pe-lg-5">
-                <img src="images/large/Fitness Plus Logo.png" class="pb-4" style="height: 5rem; width: 17rem;" alt="Fitness Plus">
+                <img src="images/large/Fitness Plus Logo.png" class="pb-4" style="height: 5rem; width: 17rem;"
+                    alt="Fitness Plus">
                 <p class="sectionTitle lh-1" style="font-size: 1.8rem;">Get 3 months free when you
                     <br>
                     buy an Apple Watch.<sup class="fs-5">14</sup>
@@ -744,11 +752,13 @@
 
 
         <!-- CASH BACK Section -->
-        <section id="cashBackSection" class="mx-auto my-5 position-relative d-flex flex-row justify-content-center gap-md-1" style="gap: 10rem;">
-            
-            <div class="d-flex flex-column justify-content-center text-center align-items-center me-5 col-lg-2 col-md-4">
+        <section id="cashBackSection"
+            class="mx-auto my-5 position-relative d-flex flex-row justify-content-center gap-md-1" style="gap: 10rem;">
+
+            <div
+                class="d-flex flex-column justify-content-center text-center align-items-center me-5 col-lg-2 col-md-4">
                 <p class="sectionTitle lh-1" style="font-size: 3rem;">Get up to $165
-                    toward a new          
+                    toward a new
                     Apple Watch.<sup style="font-size: .8rem;">15</sup>
                 </p>
                 <p class="fs-5 lh-2">With Apple Trade In, just give us your
@@ -762,7 +772,8 @@
                 </span>
             </div>
 
-            <div class="d-flex flex-column justify-content-center text-center align-items-center ms-5 mb-5 col-lg-2 col-md-4 pt-5">
+            <div
+                class="d-flex flex-column justify-content-center text-center align-items-center ms-5 mb-5 col-lg-2 col-md-4 pt-5">
                 <p class="sectionTitle lh-1 pt-md-5 mt-md-4 pt-lg-0 mt-lg-0" style="font-size: 3rem;">Get 3%
                     Daily Cash back
                     with Apple Card.
@@ -787,17 +798,20 @@
             class="overflow-hidden mx-auto position-relative d-flex flex-column mt-5 pt-4 col-lg-8 col-md-10">
             <div class="my-5 d-flex flex-column justify-content-center align-items-center text-center">
                 <p class="mt-3 fs-3 fw-semibold">Apple Watch Studio</p>
-                <p class="sectionTitle lh-1 mb-4" style="font-size: 3rem;">Any case. Any band. <br> Any style you want.</p>
+                <p class="sectionTitle lh-1 mb-4" style="font-size: 3rem;">Any case. Any band. <br> Any style you want.
+                </p>
                 <span class="rainbowBtn fw-bold">Create your style</span>
             </div>
 
             <div class="mb-5">
                 <div class="d-sm-block d-md-none position-relative" style="right: 57px;">
-                    <img src="images/small/Watch Studio Bands sm.jpg" alt="Apple Watch Studio Bands" class="pb-5 moveLeftSm position-relative z-0">
+                    <img src="images/small/Watch Studio Bands sm.jpg" alt="Apple Watch Studio Bands"
+                        class="pb-5 moveLeftSm position-relative z-0">
                     <!--Mobile-->
                 </div>
                 <div class="d-none d-md-block d-lg-none position-relative" style="left: 1px;">
-                    <img src="images/medium/Watch Studio Bands md.jpg" alt="Apple Watch Studio Bands" class="pb-5 moveLeftMd position-relative z-0">
+                    <img src="images/medium/Watch Studio Bands md.jpg" alt="Apple Watch Studio Bands"
+                        class="pb-5 moveLeftMd position-relative z-0">
                     <!--Tab-->
                 </div>
                 <div class="d-none d-lg-block position-relative" style="right: 57px;">
@@ -813,7 +827,7 @@
             </div>
             <div class="d-none d-md-block d-lg-none mb-5 position-absolute" style="top: 353px; right: 235px;">
                 <img src="images/medium/Apple Watch Studio Face md.png" alt="Apple Watch Studio Face" class="pb-5"
-                style="top: 500px; right: -2000px;">
+                    style="top: 500px; right: -2000px;">
                 <!--Tab-->
             </div>
             <div class="d-none d-lg-block mb-5 position-absolute" style="top: 357px; right: 480px;">
@@ -830,7 +844,8 @@
             class="col-lg-8 col-md-10 d-flex flex-lg-row flex-md-column align-items-center justify-content-center py-5 mx-auto my-4 overflow-hidden"
             style="background-color: rgb(245,245, 247);">
 
-            <div class="z-0 d-flex justify-content-center mt-2 mb-4 me-lg-5 pe-lg-5 col-lg-4 col-md-10 order-md-2 order-lg-1">
+            <div
+                class="z-0 d-flex justify-content-center mt-2 mb-4 me-lg-5 pe-lg-5 col-lg-4 col-md-10 order-md-2 order-lg-1">
                 <div class="d-sm-block d-md-none">
                     <img src="images/small/Why AW sm.jpg" alt="Why Apple Watch Bundle"> <!--Mobile-->
                 </div>
@@ -844,7 +859,8 @@
 
             <div class="col-lg-4 col-md-10 order-md-1 order-lg-2 ms-lg-5">
                 <p class="lh-1 text-center mt-2 fw-semibold fs-5 lh-1">Why Apple Watch</p>
-                <p class="sectionTitle lh-1 text-center mt-2" style="font-size: 2.5rem;">It's the ultimate device <br> for a healthy life.</p>
+                <p class="sectionTitle lh-1 text-center mt-2" style="font-size: 2.5rem;">It's the ultimate device <br>
+                    for a healthy life.</p>
                 <span class=" d-flex justify-content-center">
                     <a href="#"
                         class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-5">Learn
@@ -863,7 +879,8 @@
 
             <div class="d-flex flex-column px-5 col-lg-4 col-md-6 overflow-hidden me-5"
                 style="background-color: rgb(245,245, 247);">
-                <p class="sectionTitle lh-1 text-center mt-5 col-lg-8 mx-auto" style="font-size: 2.5rem;">Spring forward with fresh colors.</p>
+                <p class="sectionTitle lh-1 text-center mt-5 col-lg-8 mx-auto" style="font-size: 2.5rem;">Spring forward
+                    with fresh colors.</p>
                 <span class=" d-flex justify-content-center">
                     <a href="#"
                         class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-5 fw-semibold">Shop
@@ -888,7 +905,8 @@
             <div class="d-flex flex-column px-5 col-lg-4 col-md-6 overflow-hidden align-items-center"
                 style="background-color: rgb(245,245, 247);">
                 <div class="position-absolute z-1 d-flex flex-column justify-content-center align-items-center">
-                    <p class="sectionTitle lh-1 text-center mt-5 col-lg-8 col-md-8" style="font-size: 2.5rem;">Magic runs in the family.</p>
+                    <p class="sectionTitle lh-1 text-center mt-5 col-lg-8 col-md-8" style="font-size: 2.5rem;">Magic
+                        runs in the family.</p>
                     <p class="fs-5 lh-2 text-center">Explore all AirPods models and
                         <br>
                         find the best ones for you.
@@ -936,7 +954,8 @@
             </span>
         </div>
 
-        <div class="d-flex flex-column justify-content-center text-center align-items-center col-lg-3 col-md-3 mt-md-5 mx-md-5 pt-md-4">
+        <div
+            class="d-flex flex-column justify-content-center text-center align-items-center col-lg-3 col-md-3 mt-md-5 mx-md-5 pt-md-4">
             <img src="images/cash icon.jpg" alt="Payment Icon" class="my-4"
                 style="height: 65px; width: 65px; filter: invert(51%) sepia(0%) saturate(0%) hue-rotate(172deg) brightness(96%) contrast(90%);">
             <p class="lh-1 text-center mt-2 fs-5 fw-bold">Pay monthly at 0% APR</p>
@@ -1010,7 +1029,8 @@
                         <img src="images/large/Apple One lg.png" alt="Apple One Logo"> <!--Large-->
                     </div>
                 </div>
-                <p class="lh-1 text-center mt-2 fw-semibold fs-4 lh-1">Bundle up to six Apple services. And enjoy more for less.
+                <p class="lh-1 text-center mt-2 fw-semibold fs-4 lh-1">Bundle up to six Apple services. And enjoy more
+                    for less.
                 </p>
                 <span class="d-flex justify-content-center mt-3 mb-5 pb-5">
                     <a href="#" class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-5">Try
@@ -1148,7 +1168,8 @@
 
                 <div class="bg-black d-flex flex-column px-4 align-items-center col-lg-6 col-md-6">
                     <div class="d-flex flex-column justify-content-center align-items-center mt-5">
-                        <p class="sectionTitle lh-1 text-center mt-5 text-light col-lg-8" style="font-size: 3rem;">Three rings. One goal.</p>
+                        <p class="sectionTitle lh-1 text-center mt-5 text-light col-lg-8" style="font-size: 3rem;">Three
+                            rings. One goal.</p>
                         <span class="d-flex justify-content-center col-lg-10">
                             <a href="#"
                                 class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover fs-5 fw-semibold text-center">See
