@@ -131,7 +131,11 @@ hr {
   left: 3px;
 }
 
-.moveLeftLg{
+/* .watchBandsSm{
+  background-image: url("images/small/Watch Studio Bands sm.jpg");
+} */
+
+/* .moveLeftLg{
   transform: translateX(-260px); 
   transition: transform 3s;
 }
@@ -156,7 +160,39 @@ hr {
 
 .moveLeftSm:hover{
   transform: translateX(-580px);
+} */
+
+
+.moveLeftSm{
+  transform: translateX(-33.7vh); 
+  transition: transform 3s;
 }
+
+.moveLeftSm:hover{
+  transform: translateX(-54vh);
+}
+
+
+
+.moveLeftMd{
+  transform: translateX(-30vh); 
+  transition: transform 3s;
+}
+
+.moveLeftMd:hover{
+  transform: translateX(-54.5vh);
+}
+
+
+.moveLeftLg{
+  transform: translateX(-34.4vh); 
+  transition: transform 3s;
+}
+
+.moveLeftLg:hover{
+  transform: translateX(-69vh);
+}
+
 
 
 @media only screen and (min-width: 768px) {
