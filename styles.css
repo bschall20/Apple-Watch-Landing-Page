@@ -132,32 +132,29 @@ hr {
 
 
 .moveLeftSm{
-  transform: translateX(-33.7vh); 
   transition: transform 3s;
 }
 
 .moveLeftSm:hover{
-  transform: translateX(-54vh);
+  transform: translateX(-18.5vh);
 }
 
 
 .moveLeftMd{
-  transform: translateX(-30vh); 
   transition: transform 3s;
 }
 
 .moveLeftMd:hover{
-  transform: translateX(-54.5vh);
+  transform: translateX(-24.5vh);
 }
 
 
 .moveLeftLg{
-  transform: translateX(-34.4vh); 
   transition: transform 3s;
 }
 
 .moveLeftLg:hover{
-  transform: translateX(-69vh);
+  transform: translateX(-34.5vh);
 }
 
 
